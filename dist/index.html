@@ -6,21 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 
 <body>
     <!-- Header starts -->
-    <div class="flex space-x-5 h-10 bg-purple-500">
-        <div class="flex gap-7 m-3">
-            <div>
-                <span class="material-symbols-outlined">menu</span>
-            </div>
-            <div>
-                YouTube
+    <div class="flex">
+        <div class="flex space-x-5 h-12 bg-purple-500 w-72">
+            <div class="flex gap-7 m-3">
+                <div class="mt-1">
+                    <span class="material-symbols-outlined">menu</span>
+                </div>
+                <div class="text-xl font-bold">
+                    YouTube
+                </div>
             </div>
         </div>
-        <div></div>
+        <div class="h-36 bg-yellow-200 w-full flex pl-56 pt-6">
+            <div class="flex h-8 gap-4">
+                <input class="w-[500px] h-10 border-gray-400 border-2 rounded-3xl pl-5 text-xl" type="text" placeholder="Search">
+                <div class="text-center flex items-center pt-2">
+                    <span class="material-symbols-outlined rounded-full bg-slate-200 h-10 w-10 pt-2 hover:bg-slate-400">mic</span>
+                </div>
+            </div>
+            <div>
+                <div class="flex ">
+                    <span class="material-symbols-outlined text-9xl pt-2">video_call</span>
+                    <span class="material-symbols-outlined pt-2">notifications</span>
+                    <img src="./profile.jpg" class="w-11 rounded-full" alt="">
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Header ends -->
 </body>
