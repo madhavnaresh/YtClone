@@ -13,65 +13,202 @@
 <body>
     <div class="flex">
         <!-- Left section starts -->
-        <div class="flex space-x-5 h-[100vh] w-72 flex-col">
-            <div class="flex gap-4 m-3 sticky pl-6">
-                <div class="mt-1">
-                    <span class="material-symbols-outlined text-xs">menu</span>
+        <div class="flex space-x-5 h-full w-72 flex-col">
+            <div class="flex gap-4 pl-6 pt-5 pb-2 m-0 sticky top-0 bg-white">
+                <div class=" ml-4">
+                    <span class="material-symbols-outlined text-xs cursor-pointer">menu</span>
                 </div>
-                <div class="text-2xl font-bold hidden md:block">
-                    YouTube
+                <div class="text-2xl font-bold">
+                    <img class="w-[110px] cursor-pointer" src="./ytlogo.png" alt="">
                 </div>
             </div>
             <div>
-                <ul class="p-3 space-y-5 border-b-2">
-                    <div class="flex font-semibold gap-4 bg-slate-200 rounded-xl px-2 py-1">
+                <ul class="p-2 space-y-0 border-b-2 m-0">
+                    <div class="flex px-2 gap-4 py-[6px] font-semibold bg-slate-100 rounded-xl">
                         <div><span class="material-symbols-outlined">home</span></div>
                         <div>Home</div>
                     </div>
-                    <div class="flex gap-4 px-2">
-                        <div><span class="material-symbols-outlined font-semibold">play_circle</span></div>
-                        <div>Shorts</div>
+                    <div class="flex px-2 gap-4 py-[6px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">play_circle</span></div>
+                        <div class="pt-1">Shorts</div>
                     </div>
-                    <div class="flex gap-4 px-2">
+                    <div class="flex px-2 gap-4 py-[8px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
                         <div><span class="material-symbols-outlined font-semibold">subscriptions</span></div>
                         <div>Subscription</div>
                     </div>
                 </ul>
             </div>
             <div>
-                <ul class="p-4 space-y-5 border-b-2">
-                    <div class="flex gap-3">
+                <ul class="p-4 space-y-0 border-b-2">
+                    <div class="flex px-2 gap-3 py-[8px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
                         <div class="font-semibold">You</div>
                         <div><span class="material-symbols-outlined text-sm">chevron_right</span></div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">account_box</span></div>
-                        <div>Your channel</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">account_box</span></div>
+                        <div class="pt-1">Your channel</div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">history</span></div>
-                        <div>History</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">history</span></div>
+                        <div class="pt-1">History</div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">playlist_play</span></div>
-                        <div>Playlists</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">playlist_play</span></div>
+                        <div class="pt-1">Playlists</div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">smart_display</span></div>
-                        <div>Your videos</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">smart_display</span></div>
+                        <div class="pt-1">Your videos</div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">pace</span></div>
-                        <div>Watch later</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">pace</span></div>
+                        <div class="pt-1">Watch later</div>
                     </div>
-                    <div class="flex gap-4">
-                        <div><span class="material-symbols-outlined font-semibold">thumb_up</span></div>
-                        <div>Liked videos</div>
+                    <div class="flex px-3 gap-3 py-[4px] hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined font-semibold pt-1">thumb_up</span></div>
+                        <div class="pt-1">Liked videos</div>
                     </div>
                 </ul>
             </div>
+            <div>
+                <ul class="p-3 space-y-1 border-b-2">
+                    <div class="flex gap-3">
+                        <div class="font-semibold">Subscriptions</div>
+                    </div>
+                    <div class="flex space-x-20 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./mrbeast.jpg" alt=""></div>
+                            <div>MrBeast</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex space-x-8 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./gatesmashers.jpg" alt=""></div>
+                            <div>Gate Smashers</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex space-x-20 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./tseries.jpg" alt=""></div>
+                            <div>T-Series</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex space-x-10 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./mjo.jpg" alt=""></div>
+                            <div>Make Joke Of</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex space-x-10 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./apnaclg.jpg" alt=""></div>
+                            <div>Apna College</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4 px-2 py-2 gap-0 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div class="flex gap-4">
+                            <div><img class="rounded-full w-6" src="./kaanphod.jpg" alt=""></div>
+                            <div>KaanPhod Music</div>
+                        </div>
+                        <div>
+                            <div class="w-1 h-1 rounded-full bg-blue-500 mt-3"></div>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 pl-2 px-2 py-1 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined">keyboard_arrow_down</span></div>
+                        <div>Show more</div>
+                    </div>
+                </ul>
+            </div>
+            <div>
+                <ul class="p-2 space-y-0 border-b-2 m-0">
+                    <div class="flex px-2 gap-4 py-[6px]">
+                        <div class="font-semibold">More from YouTube</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><img class="rounded-full w-6" src="./ytlogo2.png" alt=""></div>
+                        <div>YouTube Premium</div>
+                    </div>
+                    <div class="flex gap-3 pl-2 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><img class="rounded-full w-8" src="./ytstudio.png" alt=""></div>
+                        <div class="pt-1">YouTube Studio</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><img class="rounded-full w-6" src="./ytmusic.png" alt=""></div>
+                        <div>YouTube Music</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><img class="rounded-full w-6" src="./ytkids.png" alt=""></div>
+                        <div>YouTube Kids</div>
+                    </div>
+
+                </ul>
+            </div>
+            <div>
+                <ul class="p-1 space-y-0 border-b-2 m-0">
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined">settings</span></div>
+                        <div>Settings</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined">flag</span></div>
+                        <div>Report history</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined">help</span></div>
+                        <div>Help</div>
+                    </div>
+                    <div class="flex gap-4 pl-3 py-2 hover:bg-slate-100 hover:rounded-xl cursor-pointer">
+                        <div><span class="material-symbols-outlined">feedback</span></div>
+                        <div>Send feedback</div>
+                    </div>
+
+                </ul>
+            </div>
+            <div class="p-5 space-y-4 text-[14px]">
+                <div class="font-semibold text-gray-500">
+                    <div>
+                        About Press Copyright
+                    </div>
+                    <div>
+                        Contact us Creators
+                    </div>
+                    <div>
+                        Advertise Developers
+                    </div>
+                </div>
+                <div class="font-semibold text-gray-500">
+                    <div>
+                        Terms Privacy Policy & Safety
+                    </div>
+                    <div>
+                        How YouTube works
+                    </div>
+                    <div>
+                        Test new features
+                    </div>
+                </div>
+                <div class="text-gray-500 text-[11px]">
+                    &copy; 2024 Google LLC
+                </div>
+            </div>
         </div>
-        <div class="bg bg-purple-600 h-full w-full">
+        <div class="bg bg-purple-600 h-full w-full sticky top-0">
             Main section
         </div>
     </div>
